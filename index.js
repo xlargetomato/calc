@@ -14,7 +14,7 @@ let seven = document.querySelector(".number7");
 let eight = document.querySelector(".number8");
 let nine = document.querySelector(".number9");
 // let clear = document.querySelector(".numberclear");
-let percent = document.querySelector(".numberpercent");
+// let percent = document.querySelector(".numberpercent");
 let zero = document.querySelector(".numberzero");
 let dot = document.querySelector(".numberdot");
 let equal = document.querySelector(".numberequal");
@@ -77,9 +77,9 @@ dot.addEventListener("click", function a1() {
 equal.addEventListener("click", function a1(form) {
   display.innerHTML = eval(display.innerHTML);
 });
-percent.addEventListener("click", function a1(form) {
-  display.innerHTML += "%";
-});
+// percent.addEventListener("click", function a1(form) {
+//   display.innerHTML += "%";
+// });
 
 let wws = document.querySelector(".number");
 

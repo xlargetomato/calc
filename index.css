@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  width: 240px;
+  width: 260px;
   height: max-content;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -22,11 +22,11 @@ body {
 }
 
 .screen {
-  height: 120px;
-  background-color: #575758;
+  height: 140px;
+  background-color: #86868b;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
-  font-size: 30px;
+  font-size: 33px;
   padding: 10px;
   text-align: justify;
   overflow: scroll;
@@ -47,8 +47,11 @@ body {
   padding: 10px;
   text-align: center;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 20px;
 }
 .numbers div:hover {
   background-color: rgb(92, 92, 92);
+}
+.numberequal {
+  grid-column: span 2;
 }
