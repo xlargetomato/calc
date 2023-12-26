@@ -54,7 +54,10 @@ clear.addEventListener("click", function a1() {
   display.innerHTML = "";
 });
 delet.addEventListener("click", function a1() {
-  display.innerHTML.slice(1, -1);
+  display.innerHTML = display.innerHTML.substring(
+    0,
+    display.innerHTML.length - 1
+  );
 });
 slash.addEventListener("click", function a1() {
   display.innerHTML += "/";
@@ -74,8 +77,12 @@ dot.addEventListener("click", function a1() {
 equal.addEventListener("click", function a1(form) {
   display.innerHTML = eval(display.innerHTML);
 });
+percent.addEventListener("click", function a1(form) {
+  display.innerHTML += "%";
+});
 
 let wws = document.querySelector(".number");
+
 wws.addEventListener("click", function a1(form) {
   document.body.innerHTML = "خدتك عليه";
   document.body.style.fontSize = "60px";
